@@ -38,7 +38,7 @@ function draw() {
      if (ground.x < 0){
       ground.x = ground.width/2;
     }
-    if (keyDown("W")){
+    if (keyDown("space")){
       monkey.velocityY = -12;
       
     }
